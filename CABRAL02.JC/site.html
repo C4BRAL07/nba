@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhores Jogadores</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        main h5 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        ol {
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        aside {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        aside h5 {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        aside img {
+            display: block;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        /* Layout responsivo */
+        @media (min-width: 700px) {
+            .container {
+                display: flex;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            main, aside {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>MELHORES JOGADORES</h2>
+    </header>
+
+    <div class="container">
+        <main>
+            <h5>LISTA DE JOGADORES:</h5>
+            <ol>
+                <li>PELÉ</li>
+                <li>CRISTIANO RONALDO</li>
+                <li>NEYMAR</li>
+            </ol>
+        </main>
+
+        <aside>
+            <h5>IMAGEM DOS JOGADORES</h5>
+
+            <img src="https://tse4.mm.bing.net/th/id/OIP.NYJnIVWCHZxamXATS6K6IwHaJe?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pelé">
+
+            <img src="https://th.bing.com/th/id/R.059f35496d46f332a217e64cacd68a59?rik=0v49qvtJwJocwg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fcristiano-ronaldo-new.jpg&ehk=uwdE3a1Ka0BVb5uu5wlcWUBNJjp9d5k8HT0PgVO5vC4%3d&risl=&pid=ImgRaw&r=0" alt="Cristiano Ronaldo">
+
+            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0e4b0a1cb43f8e0c/60dbf1e4e8e8e93a7e9e3d6e/3a0e8e8e8e8e8e8e8e.jpg" alt="Neymar">
+        </aside>
+    </div>
+
+</body>
+</html>
